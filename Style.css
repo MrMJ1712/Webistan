@@ -1,0 +1,86 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: url('Images/Image1.jpg');
+    background-repeat: no-repeat;
+}
+.news{
+padding: 10px;
+margin-left: 70%;
+border-radius: 30px;
+width: 300px;
+}
+h3{
+text-align: center;
+color: blueviolet;
+
+}
+.cus{
+
+/* padding: 10px; */
+margin:10px;
+margin-left :60px;
+
+}
+
+input{
+border-radius: 8px;
+border-color: blueviolet;
+
+}
+button{
+border-radius: 8px;
+background-color: rgb(3,48,141);
+color: white;
+
+}
+#message{
+border-radius: 8px;
+border-color: blueviolet;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.c5{
+margin-left: 120px;
+}
+
+.container1{
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    background-color: transparent;
+    color:white;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+    color: black;
+}
+#A1{
+    color:black
+}
+
+input[type=submit] {
+    background-color: rgb(23,96,205);
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
